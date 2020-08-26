@@ -31,6 +31,7 @@
     "template"
   ],
   "scripts": {
+    "build": "babel ./src --out-dir build",
     "prestart": "babel ./src --out-dir build",
     "start": "node ./build/bin/www",
     "startdev": "nodemon --exec babel-node ./src/bin/www"
