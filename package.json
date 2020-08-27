@@ -37,9 +37,11 @@
     "startdev": "nodemon --exec babel-node ./src/bin/www"
   },
   "dependencies": {
+    "compression": "1.7.4",
     "cookie-parser": "1.4.5",
     "debug": "2.6.9",
     "express": "4.17.1",
+    "helmet": "4.1.0",
     "http-errors": "1.8.0",
     "morgan": "1.10.0"
   },
